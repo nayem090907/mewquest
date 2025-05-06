@@ -1,0 +1,3 @@
+function addToCart() {
+  alert("বইটি কার্টে যোগ হয়েছে!");
+}

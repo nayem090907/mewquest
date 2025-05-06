@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>চেকআউট</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">🐾 MewQuest</div>
+    <nav>
+      <a href="index.html">হোম</a>
+      <a href="ebook-store.html">বইয়ের দোকান</a>
+      <a href="cart.html">কার্ট</a>
+      <a href="account.html">অ্যাকাউন্ট</a>
+    </nav>
+  </header>
+  <section class="checkout">
+    <h2>অর্ডার কনফার্ম করুন</h2>
+    <form>
+      <label>ঠিকানা:</label>
+      <input type="text" required />
+      <label>ফোন নম্বর:</label>
+      <input type="text" required />
+      <label>পেমেন্ট মেথড:</label>
+      <select>
+        <option>বিকাশ</option>
+        <option>নগদ</option>
+        <option>রকেট</option>
+        <option>ভিসা/মাস্টারকার্ড</option>
+      </select>
+      <button type="submit">পেমেন্ট করুন</button>
+    </form>
+  </section>
+  <footer>
+    <p>&copy; ২০২৫ MewQuest | সর্বস্বত্ব সংরক্ষিত</p>
+  </footer>
+</body>
+</html>

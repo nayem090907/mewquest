@@ -1,0 +1,12 @@
+<h2>পণ্য যোগ করুন</h2>
+<form>
+  <label>বইয়ের নাম:</label><br/>
+  <input type="text" required/><br/>
+  <label>বর্ণনা:</label><br/>
+  <textarea required></textarea><br/>
+  <label>দাম:</label><br/>
+  <input type="number" required/><br/>
+  <label>ছবি আপলোড:</label><br/>
+  <input type="file" /><br/>
+  <button type="submit">সংরক্ষণ করুন</button>
+</form>

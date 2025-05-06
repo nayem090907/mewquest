@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>যোগাযোগ</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">🐾 MewQuest</div>
+    <nav>
+      <a href="index.html">হোম</a>
+      <a href="ebook-store.html">বইয়ের দোকান</a>
+      <a href="cart.html">কার্ট</a>
+      <a href="account.html">অ্যাকাউন্ট</a>
+    </nav>
+  </header>
+  <section class="contact">
+    <h2>যোগাযোগ</h2>
+    <form>
+      <label>নাম:</label>
+      <input type="text" required />
+      <label>ইমেইল:</label>
+      <input type="email" required />
+      <label>মেসেজ:</label>
+      <textarea required></textarea>
+      <button type="submit">পাঠিয়ে দিন</button>
+    </form>
+  </section>
+  <footer>
+    <p>&copy; ২০২৫ MewQuest | সর্বস্বত্ব সংরক্ষিত</p>
+  </footer>
+</body>
+</html>

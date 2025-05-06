@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>পণ্য বিস্তারিত</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">🐾 MewQuest</div>
+    <nav>
+      <a href="index.html">হোম</a>
+      <a href="ebook-store.html">বইয়ের দোকান</a>
+      <a href="cart.html">কার্ট</a>
+      <a href="account.html">অ্যাকাউন্ট</a>
+    </nav>
+  </header>
+  <section class="product-detail">
+    <img src="images/cat-book.jpg" alt="বিড়ালের যত্ন">
+    <h2>বিড়ালের যত্ন</h2>
+    <p>এই বইটি নতুন পেট মালিকদের জন্য। বিড়ালের খাওয়া, যত্ন, গৃহপালিত করা সব শেখা যাবে।</p>
+    <h3>৳ ২৫০</h3>
+    <button onclick="addToCart()">কার্টে যোগ করুন</button>
+    <p><strong>অনলাইনে পড়ুন</strong></p>
+  </section>
+  <footer>
+    <p>&copy; ২০২৫ MewQuest | সর্বস্বত্ব সংরক্ষিত</p>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

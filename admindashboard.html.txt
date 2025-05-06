@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>অ্যাডমিন ড্যাশবোর্ড</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <h1>ওহে, অ্যাডমিন!</h1>
+  <nav>
+    <a href="products.html">পণ্য যোগ করুন</a> |
+    <a href="orders.html">অর্ডার লিস্ট</a> |
+    <a href="settings.html">সেটিংস</a>
+  </nav>
+</body>
+</html>

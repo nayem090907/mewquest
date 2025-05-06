@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ই-বুক স্টোর</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">🐾 MewQuest</div>
+    <nav>
+      <a href="index.html">হোম</a>
+      <a href="ebook-store.html">বইয়ের দোকান</a>
+      <a href="cart.html">কার্ট</a>
+      <a href="account.html">অ্যাকাউন্ট</a>
+    </nav>
+  </header>
+  <section class="store">
+    <h2>ই-বুক স্টোর</h2>
+    <div class="filters">
+      <select>
+        <option>প্রাণী অনুযায়ী</option>
+        <option>বিড়াল</option>
+        <option>কুকুর</option>
+      </select>
+      <input type="text" placeholder="খুঁজুন...">
+    </div>
+    <div class="product-list">
+      <div class="product-card">
+        <img src="images/cat-book.jpg" alt="বিড়ালের যত্ন">
+        <h3>বিড়ালের যত্ন</h3>
+        <p>৳ ২৫০</p>
+        <button onclick="addToCart()">কার্টে যোগ করুন</button>
+      </div>
+      <div class="product-card">
+        <img src="images/dog-book.jpg" alt="কুকুরের যত্ন">
+        <h3>কুকুরের যত্ন</h3>
+        <p>৳ ৩০০</p>
+        <button onclick="addToCart()">কার্টে যোগ করুন</button>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; ২০২৫ MewQuest | সর্বস্বত্ব সংরক্ষিত</p>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
