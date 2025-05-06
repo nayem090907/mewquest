@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MewQuest - পেট বইয়ের দোকান</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">🐾 MewQuest</div>
+    <nav>
+      <a href="index.html">হোম</a>
+      <a href="ebook-store.html">বইয়ের দোকান</a>
+      <a href="cart.html">কার্ট</a>
+      <a href="account.html">অ্যাকাউন্ট</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="images/animated-cat.gif" alt="পেট অ্যানিমেশন" class="hero-gif" />
+    <h1>আপনার পেটের জন্য সেরা বই এবং সার্ভিস!</h1>
+    <p>বাংলাদেশের প্রথম পেট থিমড মার্কেটপ্লেস</p>
+    <button onclick="window.location.href='ebook-store.html'">বই ঘুরে দেখুন</button>
+  </section>
+
+  <section class="products">
+    <h2>জনপ্রিয় বই</h2>
+    <div class="product-card">
+      <img src="images/cat-book.jpg" alt="বিড়ালের যত্ন">
+      <h3>বিড়ালের যত্ন</h3>
+      <p>৳ ২৫০</p>
+      <button onclick="addToCart()">কার্টে যোগ করুন</button>
+    </div>
+    <div class="product-card">
+      <img src="images/dog-book.jpg" alt="কুকুরের যত্ন">
+      <h3>কুকুরের যত্ন</h3>
+      <p>৳ ৩০০</p>
+      <button onclick="addToCart()">কার্টে যোগ করুন</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; ২০২৫ MewQuest | সর্বস্বত্ব সংরক্ষিত</p>
+  </footer>
+
+  <!-- Live Chat Button -->
+  <div class="live-chat">
+    <a href="https://tawk.to/chat-url-here" target="_blank">💬 লাইভ চ্যাট</a>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
